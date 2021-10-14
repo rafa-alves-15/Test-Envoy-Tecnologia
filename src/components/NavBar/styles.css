@@ -1,0 +1,14 @@
+.barra {
+  background-color: #0000;
+}
+
+.name {
+  padding-left: 50%;
+  width: 47px;
+  height: 77%;
+  text-align: center;
+  font: normal normal bold 56px/12px Nunito;
+  letter-spacing: 0px;
+  color: #dae3ed;
+  opacity: 1;
+}
