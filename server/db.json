@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "title": "Cruella",
+      "synopsis": "Inteligente, criativa e determinada, Estella quer fazer um nome para si através de seus designs e acaba chamando a atenção da Baronesa Von Hellman. Entretanto, o relacionamento delas desencadeia um curso de eventos e revelações que fazem com que Estella abrace seu lado rebelde e se torne a Cruella, uma pessoa má, elegante e voltada para a vingança.",
+      "genre": ["Drama", "Crime"],
+      "release_date": "27/05/2021",
+      "language": ["Inglês", "Português"],
+      "subtitled": ["Inglês", "Português"],
+      "director": "Craig Stone",
+      "image_url": "https://br.web.img3.acsta.net/c_310_420/pictures/21/04/07/21/13/5564614.jpg",
+      "link": "https://www.disneyplus.com/pt-br/movies/cruella/2GJTZuO8I01c",
+      "evaluation": "4.3",
+      "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "id": 1
+    },
+    {
+      "title": "Doutor Estranho",
+      "synopsis": "Stephen Strange (Benedict Cumberbatch) leva uma vida bem sucedida como neurocirurgião. Sua vida muda completamente quando sofre um acidente de carro e fica com as mãos debilitadas. Devido a falhas da medicina tradicional, ele parte para um lugar inesperado em busca de cura e esperança, um misterioso enclave chamado Kamar-Taj, localizado em Katmandu. Lá descobre que o local não é apenas um centro medicinal, mas também a linha de frente contra forças malignas místicas que desejam destruir nossa realidade. Ele passa a treinar e adquire poderes mágicos, mas precisa decidir se vai voltar para sua vida comum ou defender o mundo.",
+      "genre": ["Fantasia", "Aventura"],
+      "release_date": "03/11/2016",
+      "language": ["Inglês", "Português"],
+      "subtitled": ["Inglês", "Português"],
+      "director": "Scott Derrickson",
+      "image_url": "https://br.web.img2.acsta.net/c_310_420/pictures/16/09/29/21/15/495786.jpg",
+      "link": "https://www.disneyplus.com/pt-br/movies/doutor-estranho-da-marvel-studios/4GgMJ1aHKHA2",
+      "evaluation": "4.4",
+      "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "id": 2
+    },
+    {
+      "title": "Moana - Um Mar de Aventuras",
+      "synopsis": "Moana Waialiki é uma corajosa jovem, filha do chefe de uma tribo na Oceania, vinda de uma longa linhagem de navegadores. Querendo descobrir mais sobre seu passado e ajudar a família, ela resolve partir em busca de seus ancestrais, habitantes de uma ilha mítica que ninguém sabe onde é. Acompanhada pelo lendário semideus Maui, Moana começa sua jornada em mar aberto, onde enfrenta terríveis criaturas marinhas e descobre histórias do submundo.",
+      "genre": ["Animação", "Família"],
+      "release_date": "05/01/2017",
+      "language": ["Inglês", "Português"],
+      "subtitled": ["Inglês", "Português"],
+      "director": "John Musker",
+      "image_url": "https://br.web.img3.acsta.net/c_310_420/pictures/16/09/12/22/13/415370.jpg",
+      "link": "https://www.disneyplus.com/pt-br/movies/moana-um-mar-de-aventuras/70GoJHflgHH9",
+      "evaluation": "4.5",
+      "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "id": 3
+    },
+    {
+      "title": "Capitã Marvel",
+      "synopsis": "Em Capitã Marvel, Carol Danvers (Brie Larson) é uma ex-agente da Força Aérea norte-americana, que, sem se lembrar de sua vida na Terra, é recrutada pelos Kree para fazer parte de seu exército de elite. Inimiga declarada dos Skrull, ela acaba voltando ao seu planeta de origem para impedir uma invasão dos metaformos, e assim vai acabar descobrindo a verdade sobre si, com a ajuda do agente Nick Fury (Samuel L. Jackson) e da gata Goose.",
+      "genre": ["Ação", "Fantasia", "Ficção científica"],
+      "release_date": "07/03/2019",
+      "language": ["Inglês", "Português"],
+      "subtitled": ["Inglês", "Português"],
+      "director": "Anna Boden",
+      "image_url": "https://br.web.img3.acsta.net/c_310_420/pictures/19/02/04/18/35/1468867.jpg",
+      "link": "https://www.disneyplus.com/pt-br/movies/capita-marvel/38xJGlLAQy9a",
+      "evaluation": "4.1",
+      "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "id": 4
+    }
+  ]
+}
