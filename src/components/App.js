@@ -10,7 +10,7 @@ function App() {
       <NavbarFix />
       <div className="container mt-5">
         <Route exact path="/" component={MovieList} />
-        <Route path="/movie/:id/:title" component={Details} />
+        <Route path="/:id/:title" component={Details} />
       </div>
     </BrowserRouter>
   );
