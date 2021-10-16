@@ -4,16 +4,16 @@ import api from "../../API/api";
 
 export default function MovieList() {
   const [state, setState] = useState({
-    Movies: [],
+    movies: [],
   });
 
   useEffect(() => {
     async function fetchMovies() {
       try {
-        const res = await api.get("/movies");
+        const res = await api.get("movies");
         console.log(res.data);
 
-        setState({ Movies: [...res.data] });
+        setState({ movies: [...res.data] });
       } catch (err) {
         console.error(err);
       }
@@ -22,21 +22,22 @@ export default function MovieList() {
   }, []);
 
   return (
-    <div className="container m-5">
-      <div className="d-flex justify-content-center">
-        {state.Movies.map((list) => {
+    <div className="container">
+      <div className="d-flex ">
+        {state.movies.map((list) => {
           return (
-            <tr key={list._id}>
-              <td>
-                <Link>
-                  <img
-                    style={{ width: "200px", padding: "10px" }}
-                    src={list.image_url}
-                    alt={list.title}
-                  />
-                </Link>
-              </td>
-            </tr>
+            <div key={list._id}>
+              <Link to={`/movie/${list.id}/${list.title}`}>
+                <img
+                  style={{ width: "65%" }}
+                  src={list.image_url}
+                  alt={list.title}
+                />
+                <div className="col-7 text-black text-decoration-underline">
+                  <h6>{list.title}</h6>
+                </div>
+              </Link>
+            </div>
           );
         })}
       </div>

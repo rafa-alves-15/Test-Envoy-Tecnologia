@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 import api from "../../API/api";
 
 export default function NavbarFix() {
   const [state, setState] = useState([]);
-  const [filterTitle, setfilterTitle] = useState(state);
+  const [filterTitle, setFilterTitle] = useState(state);
 
   const handleSearch = (event) => {
     let value = event.target.value.toLowerCase();
@@ -14,7 +14,7 @@ export default function NavbarFix() {
     result = state.filter((data) => {
       return data.title.search(value) !== -1;
     });
-    setfilterTitle(result);
+    setFilterTitle(result);
   };
 
   useEffect(() => {
@@ -23,10 +23,10 @@ export default function NavbarFix() {
       .then((res) => {
         console.log(res.data);
         setState(res.data);
-        setfilterTitle(res.data);
+        setFilterTitle(res.data);
       })
       .catch((error) => {
-        console.log("Erro");
+        console.log(error);
       });
   }, []);
 
@@ -49,7 +49,7 @@ export default function NavbarFix() {
           </button>
         </form>
         <div>
-          {filterTitle.map((value, index) => {
+          {filterTitle.map((value) => {
             return (
               <div key={value.id}>
                 <div>{value.title}</div>
