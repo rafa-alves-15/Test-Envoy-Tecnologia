@@ -54,15 +54,15 @@ export default function Details() {
           <ul className="information-list col-7">
             <li>
               <strong>Gênero: </strong>
-              {state.genre.join(" e ")}
+              {state.genre.join(", ")}
             </li>
             <li>
               <strong>Idioma: </strong>
-              {state.language.join(" e ")}
+              {state.language.join(", ")}
             </li>
             <li>
               <strong>Legenda: </strong>
-              {state.subtitled.join(" e ")}
+              {state.subtitled.join(", ")}
             </li>
             <li>
               <strong>Diretor: </strong>
@@ -80,7 +80,7 @@ export default function Details() {
             </a>
           </div>
         </div>
-        <div className="col-7 ">
+        <div className="col-8">
           <h1 className="title">{state.title}</h1>
           <p className="abstract">{state.synopsis}</p>
           <iframe

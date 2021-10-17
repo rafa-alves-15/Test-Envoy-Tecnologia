@@ -4,22 +4,23 @@ import api from "../../API/api";
 import "./styles.css";
 
 export default function SearchBar() {
-  const [state, setState] = useState([]);
+  const [filter, setFilter] = useState([]);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    const params = {};
+    const params = { title_like: search };
     if (search) {
-      params.title_like = search;
+      api
+        .get("/movies", { params })
+        .then((res) => {
+          setFilter(res.data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    } else {
+      setFilter([]);
     }
-    api
-      .get("/movies", { params })
-      .then((res) => {
-        setState(res.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
   }, [search]);
 
   function handleChange(event) {
@@ -41,7 +42,7 @@ export default function SearchBar() {
       </div>
 
       <div>
-        {state.map((list) => {
+        {filter.map((list) => {
           return (
             <div className="container">
               <ul className="list">

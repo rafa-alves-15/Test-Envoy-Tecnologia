@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import api from "../../API/api";
 import "./styles.css";
 
-export default function MovieList(pros) {
+export default function MovieList() {
   const [state, setState] = useState({
     movies: [],
   });
