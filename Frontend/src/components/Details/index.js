@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
+import "./styles.css";
 import api from "../../API/api";
 
 export default function Details() {
@@ -37,45 +38,47 @@ export default function Details() {
       <Link className="text-black" to="/">
         <i className="fas fa-angle-left"></i> Voltar
       </Link>
-      <div className="d-flex mt-5 ">
+      <div className="page-fit">
         <div>
           <img
-            style={{ width: "65%", marginBottom: "4%" }}
+            className="movies-cover"
             src={state.image_url}
             alt={state.title}
           />
-          <p style={{ paddingLeft: "15%" }}>
-            Avalição: {state.evaluation} <i className="fas fa-star"></i>
+          <p className="evaluation">
+            Avalição: {state.evaluation}
+            <i className="fas fa-star"></i>
           </p>
-          <ul style={{ listStyleType: "none" }}>
+          <ul className="information-list">
             <li>
-              <strong>Gênero:</strong> {state.genre.join(", ")}
+              <strong>Gênero:</strong>
+              {state.genre.join(", ")}
             </li>
             <li>
-              <strong>Idioma:</strong> {state.language.join(", ")}
+              <strong>Idioma:</strong>
+              {state.language.join(", ")}
             </li>
             <li>
-              <strong>Legenda:</strong> {state.subtitled.join(", ")}
+              <strong>Legenda:</strong>
+              {state.subtitled.join(", ")}
             </li>
             <li>
-              <strong>Diretor:</strong> {state.director}
+              <strong>Diretor:</strong>
+              {state.director}
             </li>
             <li>
-              <strong>Lançamento:</strong> {state.release_date}
+              <strong>Lançamento:</strong>
+              {state.release_date}
             </li>
           </ul>
         </div>
         <div className="col-7 ">
-          <h1 className="mb-3">{state.title}</h1>
-          <p className=" mt-5">{state.synopsis}</p>
+          <h1 className="title">{state.title}</h1>
+          <p>{state.synopsis}</p>
         </div>
       </div>
       <a className="m-1" href={state.link}>
-        <img
-          style={{ width: "4%", height: "4%" }}
-          src={state.icon}
-          alt="icon"
-        />
+        <img className="platform-icon" src={state.icon} alt="icon" />
       </a>
       Assista Agora
     </div>

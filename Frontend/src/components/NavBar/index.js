@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "./styles.css";
 import SearchBar from "../Search";
 
 export default function NavbarFix() {
@@ -10,7 +9,7 @@ export default function NavbarFix() {
           Movies
         </Link>
         <SearchBar />
-        <div></div>
+        <div />
       </div>
     </nav>
   );

@@ -1,0 +1,16 @@
+.pag-home {
+  display: flex;
+}
+
+.cover {
+  width: 69%;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.text-cover {
+  margin-top: 3;
+  margin-left: 14%;
+  color: black;
+  text-decoration: underline;
+}

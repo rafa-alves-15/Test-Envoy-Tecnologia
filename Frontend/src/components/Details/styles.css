@@ -1,0 +1,25 @@
+.page-fit {
+  display: flex;
+  margin-top: 5%;
+}
+
+.movies-cover {
+  width: 65%;
+  margin-bottom: 4%;
+}
+
+.evaluation {
+  padding-left: 15%;
+}
+.information-list {
+  list-style-type: none;
+}
+
+.title {
+  margin-bottom: 8%;
+}
+
+.platform-icon {
+  width: 4%;
+  height: 4%;
+}

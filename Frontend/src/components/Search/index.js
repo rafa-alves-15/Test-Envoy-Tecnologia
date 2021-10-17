@@ -23,7 +23,7 @@ export default function SearchBar() {
   }, [search]);
 
   return (
-    <div className="d-flex ">
+    <div className=" ">
       <input
         className="form-control me-2"
         type="text"
