@@ -12,6 +12,7 @@
       "link": "https://www.disneyplus.com/pt-br/movies/cruella/2GJTZuO8I01c",
       "evaluation": "4.3",
       "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "video": "https://www.youtube.com/embed/gmRKv7n2If8",
       "id": 1
     },
     {
@@ -26,6 +27,7 @@
       "link": "https://www.disneyplus.com/pt-br/movies/doutor-estranho-da-marvel-studios/4GgMJ1aHKHA2",
       "evaluation": "4.4",
       "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "video": "https://www.youtube.com/embed/YUfWrIcX4zw",
       "id": 2
     },
     {
@@ -40,6 +42,7 @@
       "link": "https://www.disneyplus.com/pt-br/movies/moana-um-mar-de-aventuras/70GoJHflgHH9",
       "evaluation": "4.5",
       "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "video": "https://www.youtube.com/embed/PBrThRTfrdc",
       "id": 3
     },
     {
@@ -54,6 +57,7 @@
       "link": "https://www.disneyplus.com/pt-br/movies/capita-marvel/38xJGlLAQy9a",
       "evaluation": "4.1",
       "icon": "https://cdn.icon-icons.com/icons2/2657/PNG/256/disney_plus_icon_161064.png",
+      "video": "https://www.youtube.com/embed/FV7AxLbHcrE",
       "id": 4
     }
   ]

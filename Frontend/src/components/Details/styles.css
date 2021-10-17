@@ -12,14 +12,28 @@
   padding-left: 15%;
 }
 .information-list {
+  margin-left: 0;
+  margin-bottom: 15%;
   list-style-type: none;
+  padding: 0% 0% 0% 0%;
+}
+
+.information-list li {
+  margin-left: 0%;
+}
+
+.icon-text {
+  color: black;
+}
+
+.platform-icon {
+  width: 12%;
+  height: 12%;
 }
 
 .title {
   margin-bottom: 8%;
 }
-
-.platform-icon {
-  width: 4%;
-  height: 4%;
+.abstract {
+  margin-bottom: 10%;
 }

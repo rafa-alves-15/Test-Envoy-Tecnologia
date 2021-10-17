@@ -16,6 +16,7 @@ export default function Details() {
     link: "",
     evaluation: "",
     icon: "",
+    video: "",
   });
 
   const { id } = useParams();
@@ -36,7 +37,8 @@ export default function Details() {
   return (
     <div>
       <Link className="text-black" to="/">
-        <i className="fas fa-angle-left"></i> Voltar
+        <i className="fas fa-angle-left"></i>
+        Voltar
       </Link>
       <div className="page-fit">
         <div>
@@ -49,38 +51,49 @@ export default function Details() {
             Avalição: {state.evaluation}
             <i className="fas fa-star"></i>
           </p>
-          <ul className="information-list">
+          <ul className="information-list col-7">
             <li>
-              <strong>Gênero:</strong>
-              {state.genre.join(", ")}
+              <strong>Gênero: </strong>
+              {state.genre.join(" e ")}
             </li>
             <li>
-              <strong>Idioma:</strong>
-              {state.language.join(", ")}
+              <strong>Idioma: </strong>
+              {state.language.join(" e ")}
             </li>
             <li>
-              <strong>Legenda:</strong>
-              {state.subtitled.join(", ")}
+              <strong>Legenda: </strong>
+              {state.subtitled.join(" e ")}
             </li>
             <li>
-              <strong>Diretor:</strong>
+              <strong>Diretor: </strong>
               {state.director}
             </li>
             <li>
-              <strong>Lançamento:</strong>
+              <strong>Lançamento: </strong>
               {state.release_date}
             </li>
           </ul>
+          <div>
+            <a className="icon-text" href={state.link}>
+              <img className="platform-icon" src={state.icon} alt="icon" />
+              Assista Agora
+            </a>
+          </div>
         </div>
         <div className="col-7 ">
           <h1 className="title">{state.title}</h1>
-          <p>{state.synopsis}</p>
+          <p className="abstract">{state.synopsis}</p>
+          <iframe
+            width="75%"
+            height="47%"
+            src={state.video}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
-      <a className="m-1" href={state.link}>
-        <img className="platform-icon" src={state.icon} alt="icon" />
-      </a>
-      Assista Agora
     </div>
   );
 }
