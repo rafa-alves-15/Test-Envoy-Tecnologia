@@ -3,7 +3,7 @@
 }
 
 .list {
-  position: absolute;
+  /* position: absolute; */
   list-style-type: none;
   margin-top: 1%;
 }
