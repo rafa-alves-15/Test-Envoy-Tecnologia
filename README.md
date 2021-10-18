@@ -4,7 +4,7 @@
 
 # Segunda Dia do Projeto
 
-**Quinta-feira**: Criei a lista de **API**, e vinculei com o **Front-End**. Comecei a criar a página inicial, criei o **state** destinando de onde passaria do dados. Em seguinda criei o **useEffect** recebe o dados da **API**, e depois estilizei a página. Assim que conclui a página inicial, comecei a crair a barra de navegação com aa busca na **API**. Mas ocorreu alguns erros indesejados.
+**Quinta-feira**: Criei a lista de **API**, e vinculei com o **Front-End**. Comecei a criar a página inicial, criei o **state** destinando de onde passaria os dados. Em seguida criei o **useEffect** recebe os dados da **API**, e depois estilizei a página. Assim que conclui a página inicial, comecei a criar a barra de navegação com a busca na **API**. Mas ocorreu alguns erros indesejados.
 
 ## Terceiro Dia do Projeto
 
@@ -16,4 +16,4 @@
 
 ## Quinto Dia do Projeto
 
-**Domingo**: Por fim comecei a estilização da barra de pesquisa, e adidionei algumas coisas a mais na página de detalhes, como trailer do filme, e o icone da plataforma.
+**Domingo**: Por fim comecei a estilização da barra de pesquisa, e adicionei algumas coisas a mais na página de detalhes, como trailer do filme, e o ícone da plataforma.
