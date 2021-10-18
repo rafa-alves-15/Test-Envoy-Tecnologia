@@ -1,11 +1,12 @@
 .search {
-  /* position: relative; */
+  background-color: white;
 }
 
 .list {
-  /* position: absolute; */
+  padding-left: 20%;
+  background-color: white;
   list-style-type: none;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 .list p {
   font-size: 100%;

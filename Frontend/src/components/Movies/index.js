@@ -27,7 +27,7 @@ export default function MovieList() {
       <div className="pag-home">
         {state.movies.map((list) => {
           return (
-            <div key={list._id}>
+            <div key={list.id}>
               <Link to={`/${list.id}/${list.title}`}>
                 <img className="cover" src={list.image_url} alt={list.title} />
                 <div className="text-cover col-7 ">

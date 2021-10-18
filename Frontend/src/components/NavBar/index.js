@@ -3,8 +3,8 @@ import SearchBar from "../Search";
 
 export default function NavbarFix() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div className="container-fluid ">
         <Link className="navbar-brand" to="/">
           Movies
         </Link>

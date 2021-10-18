@@ -29,10 +29,10 @@ export default function SearchBar() {
   }
 
   return (
-    <div>
-      <div className="search">
+    <div className="search">
+      <div>
         <input
-          className="form-control me-2"
+          className="form-control me-2 "
           type="text"
           placeholder="Search"
           aria-label="Search"
@@ -40,11 +40,10 @@ export default function SearchBar() {
           onChange={handleChange}
         />
       </div>
-
       <div>
         {filter.map((list) => {
           return (
-            <div className="container">
+            <div className="container" key={list}>
               <ul className="list">
                 <Link to={`/${list.id}/${list.title}`}>
                   <li>

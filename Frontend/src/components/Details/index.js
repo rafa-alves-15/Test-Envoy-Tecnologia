@@ -37,7 +37,7 @@ export default function Details() {
   return (
     <div>
       <Link className="text-black" to="/">
-        <i className="fas fa-angle-left"></i>
+        <i className="fas fa-angle-left p-1"></i>
         Voltar
       </Link>
       <div className="page-fit">
@@ -88,9 +88,9 @@ export default function Details() {
             height="47%"
             src={state.video}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>
