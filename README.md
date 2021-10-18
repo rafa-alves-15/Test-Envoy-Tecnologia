@@ -1,6 +1,6 @@
 # Inicio de Projeto
 
-**Quarta-feira**: estudei **json-sever** (servidor fake) para poder utilizá-lo.
+**Quarta-feira**: Estudei **json-sever** (servidor fake) para poder utilizá-lo.
 
 # Segunda Dia do Projeto
 
